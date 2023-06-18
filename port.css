@@ -1,0 +1,76 @@
+*{
+    padding: 1px;
+    margin: 0px;
+    background-color: lightseagreen;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.child1{
+    width: 40%;
+}
+.child2{
+    width: 40%;
+    color:saddlebrown;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.project1{
+    width: 25%;
+    border: 2px double red;
+    margin: 3px;
+}
+.project2{
+    width: 25%;
+    border: 2px double red;
+    margin: 3px;
+}
+.project3{
+    width: 25%;
+    border: 2px double red;
+    margin: 3px;
+}
+.project4{
+    width: 25%;
+    border: 2px double red;
+    margin: 3px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+}
+.logoImage{
+    width: 20%;
+    margin: 3px;
+}
+.details{
+    width: 30%;
+}
+.form{
+    width: 30%;
+    padding-left: 500px;
+}
+.footer{
+    text-align: center;
+}
